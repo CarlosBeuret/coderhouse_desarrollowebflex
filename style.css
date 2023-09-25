@@ -1,0 +1,31 @@
+/* CLASE 2: CSS
+ sintaxis
+
+elemento{
+    propiedad: valor;
+}
+*/
+
+p{
+    color:black;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: underline;
+    text-align: justify;
+}
+
+h1{
+    background-color: blue;
+}
+/*aplicamos a una sección*/
+#contacto{
+    
+    background-color: beige;
+}
+
+/*Clase*/
+.paragraph-one{
+    color: brown;
+    font-size: 40px;
+}

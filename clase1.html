@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--CSS-->
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Clase 1</h1>
+
+    <p>
+        <strong>Este es un párrafo de prueba</strong> 
+        <em> de la clase uno</em>
+        <br>
+        Vamos aprendiendo etiquetas básicas de Html.
+    </p>
+
+    <!--Enlace absolutos, nos redirecciona a una web externa, eje. red social. 
+    se pone la direccion entre comillas-->
+    <a href="https://google.com"> Este es un enlace </a>
+    <!--Enlace relativo, redirecciona dentro de mi misma web.
+    -->
+    <br>
+
+    <a href="servicios.html"> enlace relativo
+
+    </a>
+    <br>
+    <!--Enlace interno, redirecciona a una seccion interna. -->
+    <a href="#contacto">  enlace interno </a>
+    <!-- Se pueden combinar los dos servicios.html#mascota-->
+    <br>
+    <section id="contacto">
+    <p class="paragraph-one">hola como estas</p>
+    </section>
+    <br>
+    <!--Listas desordenadas-->
+    <ul>
+        <li>luffy</li>
+        <li>cala</li>
+    </ul>
+    <!--Listas ordenadas-->
+    <ol>
+        <li>luffy 1</li>
+        <li>cala 2</li>
+    </ol>
+    <!-- Tabla-->
+    <table>
+        <!-- tr nos da el inicio o fin de una fila-->
+        <tr>
+            <!-- td inicializa las columnas-->
+            <td>fecha</td>
+            <td>nombre</td>
+            <td>dirección</td>
+        </tr>
+
+    </table>
+    <!--Formularios-->
+    <form action="form.php" method="POST">
+        <!-- Imput name and pass-->
+        <label for="">Nombre y apellido</label>
+        <input type="text"name="nombre" id="nombre" placeholder="Juan Perez">
+        
+        <label for="">Contraseña</label>
+        <input type="password" name="" id="">
+
+        <Select name="" id="">
+            <option value="">s</option>
+            <option value="">m</option>
+            <option value="">l</option>
+        </Select>
+        <p>Comentarios</p>
+        <textarea name="" id="" cols="30" rows="10"></textarea>
+        <p>Acepta términos y condiciones</p>
+        <input type="checkbox" name="" id="">
+        <br>
+        <input type="submit" value="Enviar">
+    </form>
+
+</body>
+</html>
