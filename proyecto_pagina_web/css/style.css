@@ -1,0 +1,26 @@
+body {
+    background-color: #e6e3e3; 
+}
+
+h1 {
+    color: #FF5733; 
+    font-size: 60px; 
+    font-family: Arial, sans-serif; 
+   
+}
+
+h2{
+    font-family: Arial, sans-serif; 
+    color: #FF5733; 
+}
+
+h3{
+    font-family: Arial, sans-serif; 
+    color: #d8715a;
+}
+
+.paragraph-one{
+    color: #6E6E6E;
+    font-family: Arial, sans-serif;
+    
+}
