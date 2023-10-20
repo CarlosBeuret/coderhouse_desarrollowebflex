@@ -1,12 +1,40 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14pt;
+    /*padding: 0;
+    margin: 0;*/
+}
+
+
+
 body {
     background-color: #e6e3e3; 
 }
 
-h1 {
+.header{
+    display: flex;
+
+}
+
+
+.menuList {
+    color: #d8715a;
+    display: flex;
+    width: 800px ;
+    background: #915ad8;
+    justify-content: space-around;
+    text-decoration-color: #915ad8;
+
+}   
+.menuList li{
+    align-items: center;
+    
+}
+.title {
     color: #FF5733; 
     font-size: 60px; 
     font-family: Arial, sans-serif; 
-   
+    display: inline-block;
 }
 
 h2{
@@ -24,3 +52,4 @@ h3{
     font-family: Arial, sans-serif;
     
 }
+
