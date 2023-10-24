@@ -23,11 +23,12 @@ body {
     width: 800px ;
     background: #915ad8;
     justify-content: space-around;
-    text-decoration-color: #915ad8;
+    color-scheme:#915ad8 ;
 
 }   
 .menuList li{
     align-items: center;
+    color: #070404;
     
 }
 .title {
